@@ -15,9 +15,12 @@ export default function Home() {
 	   <div className={"absolute z-10 text-white px-10 py-5 text-center max-w-screen-sm bg-slate-900/90 rounded-md backdrop-blur-sm"}>
 		   <h3>Hamburg AI Center</h3>
 		   <FontAwesomeIcon icon={faBrain} className={"text-8xl text-slate-400"} />
-		   <p>
-			   Generate SEO-optimized blog posts in minutes with our AI-powered SAAS solution.
-			   Acquire high-quality content effortlessly, saving you valuable time.
+		   <p className={"text-left"}>
+			   Welcome to Hamburg AI Center, your gateway to the future of AI services.
+			   We are at the forefront of cutting-edge technology, empowering businesses
+			   and individuals with the power of artificial intelligence.
+			   Our comprehensive range of AI solutions is designed to optimize efficiency,
+			   drive innovation, and transform the way you work and interact with the world.
 		   </p>
 		   <Link href={"/post/new"} className={"btn"}>Begin</Link>
 	   </div>
